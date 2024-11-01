@@ -791,6 +791,8 @@ class Board:
                     board = boards.ORANGE_PI_ZERO_PLUS_2H5
                 elif "H616" in chip_id:
                     board = boards.ORANGE_PI_ZERO_2
+                elif "H618" in chip_id:
+                    board = boards.ORANGE_PI_ZERO_3
         elif "walnutpi-1b-emmc" in board_value:
             board = boards.WALNUT_PI_1B_EMMC
         elif "walnutpi-1b" in board_value:
